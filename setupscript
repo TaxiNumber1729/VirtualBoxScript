@@ -1,0 +1,6 @@
+#!/bin/bash
+sudo apt update; sudo apt upgrade -y
+
+echo "apt update and apt upgrade has been run" 
+
+sudo apt install vim-nox curl git build-essential -y 
